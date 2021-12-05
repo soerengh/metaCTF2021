@@ -3,6 +3,7 @@ A sort of basic writeup for TracerT:
 The following will not work with the switches FQDN tracert.cg21.mctf.io.
 
 You can find the switches IP address with a DNS lookup like so:
+
 `dig tracert.cg21.mctf.io +short`
 
 After fiddling around a while with snmp and failing I decided to search for Cisco security advisories instead.
@@ -12,6 +13,7 @@ https://tools.cisco.com/security/center/publicationListing.x?product=Cisco&keywo
 
 Which leads to this informational report:
 https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20190925-l2-traceroute#recommendations
+
 Here the L2 traceroute feature is explained as well as its weakness.
 The feature is enabled by default on Catalyst Switches.
 At the bottom the security researcher Chris Marget is mentioned, who discovered the weakness.
